@@ -14,6 +14,7 @@ public class selGrid2 {
 		caps.setBrowserName("chrome");
 		WebDriver driver= new RemoteWebDriver(caps);
 		driver.get("http://rahulshetty.com");
+		System.out.println("Selgrid sample");
 	}
 
 }
